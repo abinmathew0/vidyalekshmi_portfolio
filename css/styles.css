@@ -97,7 +97,7 @@ margin-bottom:2%;
 
 @media (max-width: 992px) {
 .profilePic { 
-	margin: auto; !important
+	margin: auto;
 	height:90%;
 }
 .mainPara {
