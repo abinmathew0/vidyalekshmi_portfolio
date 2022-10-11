@@ -1,6 +1,6 @@
 body {
 background-color: #FAF6ED;
-font-family: 'Poppins', sans-serif;
+font-family: 'Open Sans', sans-serif;
 padding-top: 100px;
 color: #403321;
 }
@@ -18,8 +18,8 @@ a:hover {
 	text-align: center;
 	font-weight:900;
 	color:#481f1b;
-	margin:3% auto;
-}
+	margin: 6% auto 3% auto;
+	}
 .bg-text {
     position: relative;
     color: rgb(213 210 210 / 40%);
@@ -37,12 +37,14 @@ a:hover {
 }
 
 .navbar .navbar-nav .nav-link {
-    color: #A2453D;
+    color: #302f4d;
     font-size: 1.15em;
+    font-weight: 600;
     
 }
 .navbar .navbar-nav .nav-link:hover{
   color:#4C6793;
+  text-decoration: underline 1.5px;
    
 }
 
@@ -62,14 +64,15 @@ a:hover {
 }
 }
 
-
 /* --------------- MainPage----------- */
 
 
 #home {
     margin-bottom: 12%;
+    }
+.home-div {
+	background-image:url('img/back.svg');
 }
-
 .profilePic {
 	max-width: 70%;
     height: 114%;
@@ -145,7 +148,6 @@ margin-bottom:2%;
 }
 .profilePic { 
 	margin: 6% auto; 
-	height: auto;
 	}
 	#home {
     margin-bottom: 0;
@@ -178,6 +180,14 @@ width:50%;
     margin-bottom: -90px;
  }
  
+ .bodyAbout {
+    box-shadow: -2px -2px 6px rgb(255 255 255 / 60%),
+    			 -2px -2px 4px rgb(255 255 255 / 40%),
+    			  2px 2px 2px rgb(255 255 255 / 5%),
+    			   2px 2px 4px rgb(0 0 0 / 10%);
+    border-radius: 12px;
+    margin: auto auto 5% auto;
+ }
  .aboutPic {
  	width:100%;
  	height: 100%;
@@ -188,12 +198,16 @@ width:50%;
  .abt-text {
  	width: 90%;
     text-align: justify;
-    margin-left: 20%;
+    margin: 4% auto  6% auto;
     font-weight: 400;
     font-size: 1.2rem;
  }
  #about {
- 	margin-bottom:6%;
+ 	width: 90%;
+    margin: auto auto 6% auto;
+    border-radius: 30px;
+    border:1px solid #ede580;
+    box-shadow: 0 0 7px #ede580;
  }
               
 
@@ -210,6 +224,9 @@ width:50%;
  }
  #about {
  	margin-bottom:12%;
+ }
+ .bodyAbout {
+ width:90%;
  }
 }
 
@@ -310,7 +327,11 @@ button:active {
 
 
 #works {
-	margin-bottom:5%;
+	width: 90%;
+    margin: auto auto 6% auto;
+    border-radius: 30px;
+    border:1px solid #ede580;
+    box-shadow: 0 0 7px #ede580;
 }
 
 @media (max-width: 992px) {
@@ -332,7 +353,7 @@ button:active {
  /*-- -----------services --------- */
  
  .bgtext_services:after {
- 	content: "Services";
+ 	content: "Skills";
  }
  .imgService {
  	width:90%;
@@ -340,14 +361,18 @@ button:active {
  .txtserv{
  	font-size: 1.15rem;
     font-weight: 600;
-    margin: 13% auto;
+    margin: 13% auto 45%;
     text-align: center;
  }
  .servCol {
  	margin:auto;
  }
 #services {
-	margin-bottom:8%;
+	width: 90%;
+    margin: auto auto 8% auto;
+    border-radius: 30px;
+    border:1px solid #ede580;
+    box-shadow: 0 0 7px #ede580;
 }
 
   /* --------- contact ----------- */
@@ -448,7 +473,8 @@ button:active {
 
 /* --------- footer ----------  */
 #footer {
-	background-color:#fff2d3;
+	background-color:#EFFAED;
+	box-shadow: 0px 0px 1px inset;
 }
 .foot {
 	padding: 3% 0 1% 0;
